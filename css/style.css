@@ -2,6 +2,7 @@
     font-family: "Rubik", sans-serif;
     color: #353353;
     background-color: #F9F9FF;
+    line-height: 1.7;
 }
 
 .nav-container {
@@ -17,7 +18,7 @@
 }
 
 .nav-gap-block {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .circle-img {
@@ -61,4 +62,8 @@ footer.footer.light {
 footer.footer {
     padding: 40px 0;
     text-align: center;
+}
+
+.about-content-box {
+    border-radius: 10px !important;
 }

@@ -1,7 +1,64 @@
 .root {
-  font-family: "Rubik",sans-serif;
+    font-family: "Rubik", sans-serif;
+    color: #353353;
+    background-color: #F9F9FF;
 }
 
 .nav-container {
-  background-color: #353353;
+    background-color: #353353;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+}
+
+.navbar-brand>span {
+    color: #FF4C60;
+}
+
+.nav-gap-block {
+    margin-top: 200px;
+}
+
+.circle-img {
+    border-radius: 50% !important;
+}
+
+.display-pic {
+    width: 250px;
+}
+
+.intro {
+    margin: auto;
+    max-width: 540px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.intro .social-icons li a {
+    font-size: 2rem;
+    color: #353353;
+}
+
+.intro .social-icons li a:hover {
+    color: #FF4C60;
+}
+
+#navbarResponsive ul li a {
+    color: #FFFFFF;
+}
+
+#navbarResponsive ul li a:hover {
+    color: #FF4C60;
+}
+
+footer.footer.light {
+    background: #f9f9ff;
+    border-top: 1px solid rgba(0, 0, 0, .05);
+}
+
+footer.footer {
+    padding: 40px 0;
+    text-align: center;
 }
